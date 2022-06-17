@@ -57,6 +57,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.1)
+    concurrent-ruby (1.1.10)
     countries (0.9.2)
       currencies (>= 0.4.0)
     cucumber (1.2.3)
@@ -101,7 +102,8 @@ GEM
     httpi (2.0.2)
       rack
     hub (1.10.5)
-    i18n (0.6.4)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
